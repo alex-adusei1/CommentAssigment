@@ -4,4 +4,13 @@
  * and open the template in the editor.
  */
 
+//this is the view class for the commentAssignment
+var Comment_View= function(){
+this.start= function(){
 
+}
+this.render=function(){
+
+}
+this.start();
+}
