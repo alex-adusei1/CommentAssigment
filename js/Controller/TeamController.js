@@ -4,4 +4,10 @@
  * and open the template in the editor.
  */
 
+//controller for the comment assignment
+var Comment_Controller=function(){
 
+  this comment=[];
+
+
+}
