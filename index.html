@@ -18,9 +18,10 @@
         <!-- Optional theme -->
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
         <link rel="stylesheet" href="css/app.css">
-        
+
         <!-- font awesome --> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
 
     <body>
@@ -38,86 +39,91 @@
                 </div>
             </div>
         </nav>
-        
+
         <div class="container margin-bg">
 
             <div class="col-lg-6">
-                        <!-- User 1 -->
-                        <div class="col-lg-6">
-                            <div class="thumbnail">
-                                <img src="img/pro.jpg" alt="user1 profile">
-                                <div class="caption">
-                                    <h3>Alex Adusei</h3>
-                                    <p><i class="fa fa-code fa-lg"></i>Web Developer</p>
-                                    <p>
-                                        <a href="#" class="btn btn-fire btn-sm" role="button"><i class="fa fa-code-fork"></i> Message Me</a> 
-                                    </p>
-                                </div>
-                            </div>
+                <!-- User 1 -->
+                <div class="col-lg-6">
+                    <div class="thumbnail">
+                        <img src="img/pro.jpg" alt="user1 profile">
+                        <div class="caption">
+                            <h3>Alex Adusei</h3>
+                            <p><i class="fa fa-code fa-lg"></i>Web Developer</p>
+                            <p>
+                                <a href="#" class="btn btn-fire btn-sm" role="button"><i class="fa fa-code-fork"></i> Message Me</a> 
+                            </p>
                         </div>
+                    </div>
+                </div>
 
-                    
-                        <!--User 2 -->
-                        <div class="col-lg-6">
-                            <div class="thumbnail">
-                                <img src="img/proC.jpg" alt="user1 profile" width="100px">
-                                <div class="caption">
-                                    <h3>Priscila Boatemaa</h3>
-                                    <p> <i class="fa fa-code fa-lg"></i>Web Developer</p>
-                                    <p>
-                                        <a href="#" class="btn btn-fire btn-sm" role="button"> <i class="fa fa-code-fork"></i> Message Me</a>
-                                    </p>
-                                </div>
-                            </div>
+
+                <!--User 2 -->
+                <div class="col-lg-6">
+                    <div class="thumbnail">
+                        <img src="img/proC.jpg" alt="user1 profile">
+                        <div class="caption">
+                            <h3>Priscila Boatemaa</h3>
+                            <p> <i class="fa fa-code fa-lg"></i>Web Developer</p>
+                            <p>
+                                <a href="#" class="btn btn-fire btn-sm" role="button"> <i class="fa fa-code-fork"></i> Message Me</a>
+                            </p>
                         </div>
+                    </div>
+                </div>
 
             </div>  
 
-        <div class="col-lg-6">
-            <div class="panel">
-                <div class="panel-heading">
-                    <p class="s">Add Comment</p>
+            <div class="col-lg-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <p class="s">Add Comment</p>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <!-- use the id to get the content | 
+                                Textarea id = content
+                                button id = send
+                            -->
+                            <textarea id="content" rows="4" cols="10" class="form-control"></textarea>
+                            <button type="button" class="btn btn-sm pull-right btn-color margin-btn" id="send"> Comment</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="panel-body">
-                    <form role="form">
-                        <!-- use the id to get the content | 
-                            Textarea id = content
-                            button id = send
+
+                <div class="">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <p>Recent Comment</p>
+                        </div>
+                        <!-- Display content from server to this place 
+                             id = display
                         -->
-                        <textarea id="content" rows="4" cols="10" class="form-control"></textarea>
-                        <button type="button" class="btn btn-sm pull-right btn-color margin-btn" id="send"> Comment</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="">
-            <div class="panel">
-                <div class="panel-heading">
-                    <p>Recent Comment</p>
-                </div>
-                <!-- Display content from server to this place 
-                     id = display
-                -->
-                
-                <div class="panel-body" id="display">
-                    
-                </div>
-            </div>
-        </div>
-            
-        </div
-        
-        
-        
 
-    </div><!-- /.container -->
+                        <div class="panel-body" id="display">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+
+
+        </div><!-- /.container -->
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="js/app_main.js"></script>
+        <script src="js/View/TeamView2.js"></script>
+        <script src="js/Controller/TeamController2.js"></script>
+        <script src="js/Model/TeamModel.js"></script>
+    </body>
 </html>
