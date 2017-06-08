@@ -18,7 +18,7 @@ var TeamController2 = function () {
         btn.onclick = function (e) {
 
             e.preventDefault();
-
+            
             var comment = document.getElementById('content').value;
             
             self.addComment(comment);
@@ -35,7 +35,6 @@ var TeamController2 = function () {
             console.log("addComment --> adding cotent");
 
             this.showComments();
-        
     };
 
     this.showComments = function () {
