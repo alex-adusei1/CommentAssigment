@@ -66,3 +66,8 @@ img{
 .margin-bg{
     margin-top: 20px;
 }
+
+.btn-fire{
+    background-color: #f44336;
+    color: #fff;
+}
