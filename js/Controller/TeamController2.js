@@ -31,6 +31,7 @@ var TeamController2 = function () {
     this.addComment = function (comment) {
         
             this.arr_content.push(comment);
+            
             console.log("addComment --> adding cotent");
 
             this.showComments();

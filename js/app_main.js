@@ -5,8 +5,13 @@
  */
 
 window.onload = function(){
+    var TV = new TeamView2(); 
+    
+    TV.checkLocalStorage();
+//    document.getElementById("display").innerHTML ="";
+    
     var TC = new TeamController2();
     TC.start();
-}
+};
 
 
